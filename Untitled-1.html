@@ -1,113 +1,99 @@
-
 <!DOCTYPE html>
-<html>
-<style>
-    /*set border to the form*/
-     
-    form {
-        border: 3px solid #f1f1f1;
-        background-color:#FFFED1;
-    }
-    /*assign full width inputs*/
-    body{
-        padding: 0px;
-        height: 100px;
-        background-color: #474693;
-        background-image: url("https://wallpapercave.com/wp/gh8IbBp.jpg");
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        font-size: 100%;
-    }
-    input[type=text],
-    input[type=password] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
-    }
-    /*set a style for the buttons*/
-    button {
-        background-color: #4CAF50;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-    }
-    /* set a hover effect for the button*/
-     
-    button:hover {
-        opacity: 0.8;
-    }
-    /*set extra style for the cancel button*/
-     
-    .cancelbtn {
-        width: auto;
-        padding: 10px 18px;
-        background-color: #f44336;
-    }
-    /*centre the display image inside the container*/
-    .imgcontainer {
+<html lang="en">
+    <head>
+        <title>Intern-Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .header
+    {
+        padding: 50px;
         text-align: center;
-        margin: 24px 0 12px 0;
+        background: #474693;
+        font-size: 30px;
     }
-    /*set image properties*/
-     
-    img.avatar {
-        width: 40%;
-        border-radius: 50%;
+    .navbar
+    {
+      overflow: hidden;
+      background-color: #474693;
+      height:55px;
     }
-    /*set padding to the container*/
-     
-    .container {
-        padding: 16px;
+    .navbar a
+    {      
+      float: left;
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
     }
-    /*set the forgot password text*/
-     
-    span.psw {
-        float: right;
-        padding-top: 16px;
+    .navbar a
+    {
+      background-color: #474693;
     }
-    /*set styles for span and cancel button on small screens*/
-     
-    @media screen and (max-width: 300px) {
-        span.psw {
-            display: block;
-            float: none;
-        }
-        .cancelbtn {
-            width: 100%;
-        }
+   .content
+    {
+      padding:50px;
+      background:#FFFED1;
     }
-</style>
- 
-<body>
- 
-    <center><h1 style="color:whitesmoke">Welcome to Intern-Search</h1></center><br><br>
-    <center><h3 style="color:whitesmoke">Platform to explore certifications and internships</h3></center>
-    <br><br><br><br>
-    <form action="https://priyajahnavi.github.io/Webpage/Exceed-j-p">
-        <div class="container">
-            <label><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
- 
-            <label><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
- 
-            <button type="submit">Login</a></button>
-            <input type="checkbox" checked="checked"> Remember me
+    .content h1
+    {
+        font-size:110px;
+    }
+    .content p
+    {
+        text-align: center;
+        font-size:20px;
+    }
+    .content h2
+    {
+        text-align:center;
+        font-size:30px;
+    }
+    .footer
+    {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:#FFFED1;
+        text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#news">Internships</a>
+            <a href="#news">Virtual Internships</a>
+            <a href="https://priyajahnavi.github.io/webpagecertifications/Exceed(cert)-j-p.html">Certifications</a>
+            <a style="float:right" href="https://priyajahnavi.github.io/Webpage/contactus.html">About</a>
+          </div>
+        <div class="content">
+            <center><h1>Welcome to<br>Intern-Search</h1></center>
+            <br><br><br>
+            <h2>INTERNSHIPS</h2>
+            <p>
+                Gaining industry experience has significant benefits, whether you're in high school, college or entering the workforce. Completing an internship is often an effective way to encourage your professional growth, and there are often some available based on your education level and desired career path. Learning what makes internships beneficial may help you better understand the professional impact they may have.<br>
+                <b>Why is an internship important?</b><br>
+                An internship is important because it can present you with new skills and opportunities that you may not receive otherwise. Interns gain technical knowledge within the industry of their choice by working directly with professionals in that field.
+                This allows you to apply practical knowledge you may have learned from a classroom setting while you develop important soft skills, such as time management, organization, adaptability, problem-solving and teamwork.
+            </p>
+            <br><br><br>
+            <h2>CERTIFICATIONS</h2>
+            <p>
+                Certificate programs provide learners with an opportunity to train and develop a specialized skillset. When you’ve earned certification, you show that not only do you take your career seriously enough to spend time and money on continuing your education and expanding your abilities, but also that you have knowledge in your field that not everyone will possess.<br>
+                Workers today realize the value of increasing their proficiency in a particular subject and upgrading their credentials. Certification offers a flexible learning path for many students. Because of the competitive market, professionals must become lifelong learners by seeking out ongoing opportunities for training.<br>
+                Earning certification not only positions you as a leader in your industry - it’s an investment in yourself and your long-term career.
+            </p>
+            <br><br><br>
         </div>
- 
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
+        <div class="footer">
+            <p>
+              <h3>Copyrights : Priyanandini Pasupuleti and Jahnavi Annambotla<br>For any quieres mail to:
+              <a href="mailto:priyanandinijahnavi@gmail.com">priyanandinijahnavi@gmail.com</a></h3>
+            </p>
         </div>
-    </form>
- 
-</body>
- 
+    </body>
 </html>
-
